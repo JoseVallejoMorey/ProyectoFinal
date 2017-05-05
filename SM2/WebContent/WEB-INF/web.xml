@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SM2</display-name>
+  <welcome-file-list>
+    <welcome-file>jsp/index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Iniciar</servlet-name>
+    <servlet-class>servlets.Iniciar</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>nuevocontactoservlet</servlet-name>
+    <servlet-class>servlets.nuevocontactoservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Iniciar</servlet-name>
+    <url-pattern>/Iniciar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>nuevocontactoservlet</servlet-name>
+    <url-pattern>/nuevo-contacto</url-pattern>
+  </servlet-mapping>
+</web-app>
