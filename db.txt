@@ -93,4 +93,7 @@ UNIQUE KEY id (id)
 --
 
 INSERT INTO usuarios (id, nombre, email, pass, permisos) VALUES
-(1, 'Gordon', 'admin', 'admin', 1);
+(1, 'Gordon', 'admin', 'admin', 1),
+(2, 'redactor', 'redactor', 'redactor', 2),
+(3, 'lector', 'lector', 'lector', 3),
+(4, 'admin', 'admin@admin.com', 'admin', 1);
